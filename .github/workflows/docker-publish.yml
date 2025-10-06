@@ -25,10 +25,10 @@ jobs:
       # 3️⃣ Build Docker image
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/Vysh-reddy-boddu/nextjs-app:latest .
+          docker build -t ghcr.io/vysh-reddy-boddu/nextjs-app:latest .
 
       # 4️⃣ Push Docker image to GHCR
       - name: Push Docker image
         run: |
-          docker push ghcr.io/Vysh-reddy-boddu/nextjs-app:latest
+          docker push ghcr.io/vysh-reddy-boddu/nextjs-app:latest
 
